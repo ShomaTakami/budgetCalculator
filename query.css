@@ -1,0 +1,100 @@
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1023px) {
+  .add__type {
+    height: 40px;
+    width: 100px;
+    margin: 5px;
+  }
+  .add__description {
+    width: 250px;
+  }
+  .income {
+    width: 400px;
+    margin: 0 40px;
+  }
+  .expenses {
+    width: 400px;
+    margin: 0 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .add__type {
+    height: 40px;
+    width: 100px;
+    margin: 5px;
+  }
+  .add__description {
+    width: 250px;
+  }
+  .income {
+    width: 100vw;
+    margin: 40px 0px;
+  }
+  .expenses {
+    width: 100vw;
+    margin: 40px 0px;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .top {
+    height: 35vh;
+  }
+  .budget__title {
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 100;
+    padding-top: 10px;
+  }
+  .budget__value {
+    font-weight: 200;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+  }
+  .budget__income {
+    margin-bottom: 2px;
+    padding: 3px;
+  }
+  .budget__expenses {
+    margin-bottom: 2px;
+    padding: 3px;
+  }
+
+  .add {
+    padding: 0;
+    margin: 20px 0;
+  }
+  .add__container {
+    display: inline-block;
+    margin: 10px 0;
+  }
+  .add__type {
+    height: 20px;
+    width: 20px;
+  }
+  .add__btn {
+    margin: 0;
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  .top {
+    height: 20vh !important;
+  }
+  .income {
+    margin: 10px 0px 0px 0px;
+  }
+  .expenses {
+    margin: 20px 0px 0px 0px;
+  }
+  .item {
+    padding: 5px;
+  }
+}
